@@ -4,6 +4,11 @@
 ##Ignoring big groundwater data
 Jasechko_et_al_2024_GroundwaterLevelData/
 
+
+##Data files
+tracks.csv
+SpotifyFeatures.csv
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/

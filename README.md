@@ -1,6 +1,6 @@
 
-# Project 5
-
+# Project 5 Popularity Prediction using Spotify Features
+Authors: Dillon Diatlo, Elaine Chen, Harnish Shah, Rajashree Choudhary
 
 
 ## Problem Statement
@@ -33,6 +33,7 @@ In the expansive domain of [Spotify](https://www.spotify.com/), a platform that 
 |valence|*float*|A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track.|0 - 1|
 |population|*object*|A 0-to-100 score that ranks how popular an artist is relative to other artists on Spotify.|0 - 100|
 |genre|*object*|The genre of the track| |
+
 
 
 
@@ -73,22 +74,18 @@ The methodology involves several steps:
     - The dataset is divided into training and testing sets to assess model performance accurately.
 
 5. Model Selection:
-    - Several classification algorithms are utilized for model training, including Desicion Tree Classification, Random Forest Classification, and Neural Network 
+    - Several classification algorithms are utilized for model training, including Clustering, Desicion Tree Classification, Random Forest Classification, ExtraTrees Classification and Neural Network 
     
 6. Model Evaluation:
-    - Each classification model is trained using the training data and evaluated using the testing data.
+    - Each classification model is trained using the training data and evaluated using testing data.
     - Model performance metrics such as training score, testing score, and accuracy is calculated to assess the effectiveness of each model.
-
-
-### Key findings
 
 
 
 ### Conclusion and Recommendations
 
 #### Conclusion
-
-
+Our analysis revealed several key insights regarding the classification of song popularity using machine learning algorithms. Initially, through k-means clustering, we determined the optimal number of clusters, which informed our grouping of popularity into three classes. Subsequent experimentation with classification algorithms highlighted Random Forest as the top performer, achieving impressive training and testing scores. However, we identified a challenge with imbalanced popularity classes, particularly within the range of 34 to 66. To address this, we refined our approach by dividing popularity into five classes and employing a Dense Neural Network (DNN), resulting in improved accuracy rates. Overall, these findings underscore the importance of careful feature selection and addressing data imbalances to enhance the effectiveness of predictive models in classifying song popularity.
 
 
 #### Recommendations
